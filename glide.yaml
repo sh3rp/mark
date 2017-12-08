@@ -1,0 +1,13 @@
+package: github.com/sh3rp/mark
+import:
+- package: cloud.google.com/go
+  subpackages:
+  - storage
+- package: github.com/yhat/scrape
+- package: golang.org/x/net
+  subpackages:
+  - html
+  - html/atom
+- package: google.golang.org/api
+  subpackages:
+  - iterator

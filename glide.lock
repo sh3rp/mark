@@ -1,0 +1,108 @@
+hash: d27d9fade2415e22243b5874cbd30a1c5bfa84575e179d9f6b2b1a39f9915eac
+updated: 2017-12-07T20:19:59.183638424-05:00
+imports:
+- name: cloud.google.com/go
+  version: 9cfa4d03ec0eb9e3ee4ac57c10654e23195fe7cc
+  subpackages:
+  - compute/metadata
+  - iam
+  - internal
+  - internal/optional
+  - internal/version
+  - storage
+- name: github.com/golang/protobuf
+  version: 1e59b77b52bf8e4b449a57e6f79f21226d571845
+  subpackages:
+  - proto
+  - protoc-gen-go/descriptor
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/timestamp
+- name: github.com/googleapis/gax-go
+  version: 317e0006254c44a0ac427cc52a0e083ff0b9622f
+- name: github.com/yhat/scrape
+  version: 24b7890b0945459dbf91743e4d2ac5d75a51fee2
+- name: golang.org/x/net
+  version: dc871a5d77e227f5bbf6545176ef3eeebf87e76e
+  subpackages:
+  - context
+  - context/ctxhttp
+  - html
+  - html/atom
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/oauth2
+  version: 6a2004c8907a86949d71c664c81574897a4e55a6
+  subpackages:
+  - google
+  - internal
+  - jws
+  - jwt
+- name: golang.org/x/text
+  version: be25de41fadfae372d6470bda81ca6beb55ef551
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/api
+  version: fb1d4474b70b485b7facc09bff19c312dec8b7be
+  subpackages:
+  - gensupport
+  - googleapi
+  - googleapi/internal/uritemplates
+  - googleapi/transport
+  - internal
+  - iterator
+  - option
+  - storage/v1
+  - transport/http
+- name: google.golang.org/appengine
+  version: 9d8544a6b2c7df9cff240fcf92d7b2f59bc13416
+  subpackages:
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+  - internal/urlfetch
+  - urlfetch
+- name: google.golang.org/genproto
+  version: 7f0da29060c682909f650ad8ed4e515bd74fa12a
+  subpackages:
+  - googleapis/api/annotations
+  - googleapis/iam/v1
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: ec61302c8eeed1f9705bc51e6606220ce21f4a60
+  subpackages:
+  - balancer
+  - balancer/base
+  - balancer/roundrobin
+  - codes
+  - connectivity
+  - credentials
+  - encoding
+  - grpclb/grpc_lb_v1/messages
+  - grpclog
+  - internal
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - resolver
+  - resolver/dns
+  - resolver/manual
+  - resolver/passthrough
+  - stats
+  - status
+  - tap
+  - transport
+testImports: []
