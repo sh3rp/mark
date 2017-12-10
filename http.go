@@ -1,6 +1,8 @@
 package mark
 
 import (
+	"errors"
+	"fmt"
 	"net/http"
 	"regexp"
 	"strings"
@@ -189,8 +191,12 @@ var STOP_WORDS = map[string]bool{
 }
 
 func BookmarkFromLink(link string) (Bookmark, error) {
+	if link == "" {
+		return Bookmark{}, errors.New("Link is empty")
+	}
 	resp, err := http.Get(link)
 	if err != nil {
+		fmt.Printf("link: %v\n", link)
 		return Bookmark{}, err
 	}
 
